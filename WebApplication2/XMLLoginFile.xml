@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<password>
+  <admin>
+    <email>admin@gmail.com</email>
+    <password>admin</password>
+  </admin>
+  <admin>
+    <email>adam@admin.com</email>
+    <password>admin</password>
+  </admin>
+</password>

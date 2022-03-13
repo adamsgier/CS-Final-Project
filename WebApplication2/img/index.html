@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Bootstrap 5 Responsive Product Grid View</title>
+    <style>
+      body {
+      padding: 0;
+      margin: 0;
+      font-family: "Nunito Sans";
+      }
+      img{
+      height: 230px;
+      }
+      .card{
+      padding-top: 10px;
+      height: 100%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+      }
+      .bi{
+      text-align: right;
+      padding-right: 10px;
+      font-size: 26px;
+      cursor: pointer;
+      }
+      h5{
+      padding-top: 15px;
+      }
+      .btn{
+      padding: 5px 25px;
+      margin-top: 10px;
+      }
+      @media(max-width: 768px){
+      img{
+      height: 100%;
+      }
+      }
+      @media(max-width: 575px){
+      .container{
+      width: 90%;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container p-0 mt-5 mb-5">
+      <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <i class="bi bi-heart-fill"></i>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41mQtYQUzmL.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">HP Pavilion Gaming 10th Gen Intel Core i5 Processor</h5>
+              <h4 class="card-text text-danger">₹ 48,000</h4>
+              <button type="button" class="btn btn-outline-primary">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <i class="bi bi-heart"></i>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51ogrgGK%2B9L._SX679_.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Lenovo 300 Wireless Compact Mouse</h5>
+              <h4 class="card-text text-danger">₹ 680</h4>
+              <button type="button" class="btn btn-outline-primary">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <i class="bi bi-heart"></i>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71EmR0GC7YL._SX679_.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
+              <h4 class="card-text text-danger">₹ 56,000</h4>
+              <button type="button" class="btn btn-outline-primary">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <i class="bi bi-heart"></i>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/712qAHkMCmL._SX679_.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">XPG S40G 512GB RGB 3D NAND PCIe Gen3x4 NVMe</h5>
+              <h4 class="card-text text-danger">₹ 199</h4>
+              <button type="button" class="btn btn-outline-primary">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
